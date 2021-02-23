@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hypermodern-python-series"
+version = "0.1.0"
+description = "The hypermodern Python project"
+authors = ["Shay Ben-Sasson <shaybensasson@gmail.com>"]
+
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/shaybensasson/hypermodern-python-series"
+repository = "https://github.com/shaybensasson/hypermodern-python-series"
+keywords = ["hypermodern"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^7.1.2"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+hypermodern-python-series = "hypermodern_python_series.console:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
